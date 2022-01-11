@@ -44,17 +44,21 @@
 
     <!-- Home -->
     <section id="home">
-      <div class="home__container">
+      <div class="home__information">
+        <h1 class="home__title">
+          Hi, <br />I'm William <span class="home__surname">Kim</span>
+        </h1>
+        <h2 class="home__description">
+          <em>An IT Graudate currently residing in Melbourne</em>
+        </h2>
+        <button class="home__contact">Contact me</button>
+      </div>
+      <div class="home__profile">
         <img
           src="imgs/profile.jpg"
           alt="William's profile photo"
           class="home__avatar"
         />
-        <h1 class="home__title">Hello, <br />I'm William Kim</h1>
-        <h2 class="home__description">
-          An IT Graudate currently residing in Melbourne
-        </h2>
-        <button class="home__contact">Contact me</button>
       </div>
     </section>
 
@@ -217,7 +221,7 @@
       <h3>Projects</h3>
       <div class="work__categories">
         <button class="category__btn selected" data-filter="*">
-          All<span class="category__count">6</span>
+          All<span class="category__count">5</span>
         </button>
         <button class="category__btn" data-filter="front-end">
           <i class="fab fa-html5"></i>
@@ -233,7 +237,7 @@
         </button>
         <button class="category__btn" data-filter="machine-learning">
           <i class="fab fa-python"></i>
-          <span class="category__count">2</span>
+          <span class="category__count">1</span>
         </button>
       </div>
 
@@ -278,7 +282,7 @@
         >
           <img
             class="project__img"
-            src="imgs/projects/youtubePlayerAPI.png"
+            src="imgs/projects/youtube-player-API.png"
             alt="YouTube Player API"
           />
           <div class="project__description">
@@ -302,6 +306,22 @@
             <span>Use WCF Service and AWS to compute a set of allocations</span>
           </div>
         </a>
+        <a
+          href="https://github.com/Willy-is/algorithm-treasure-hunting"
+          class="project"
+          data-type="machine-learning"
+          target="blank"
+        >
+          <img
+            class="project__img"
+            src="imgs/projects/treasure-hunting.png"
+            alt="Cloud application"
+          />
+          <div class="project__description">
+            <h3>Algorithm for optimal decision</h3>
+            <span>Help compute whether choosing first is beneficial</span>
+          </div>
+        </a>
       </div>
     </section>
 
@@ -317,7 +337,7 @@
           <i class="fab fa-linkedin"></i>
         </a>
       </div>
-      <p class="contact__rights">2021 William Kim - All rights reserved</p>
+      <p class="contact__rights">2022 William Kim - All rights reserved</p>
     </section>
 
     <!-- Arrow up -->
