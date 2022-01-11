@@ -540,6 +540,13 @@ p {
     margin-bottom: 1.5em;
   }
 
+  .major__icon {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 60px;
+  }
+
   .skillset {
     flex-direction: column;
   }
