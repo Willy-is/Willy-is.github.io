@@ -531,7 +531,7 @@ p {
   }
 
   .about__majors {
-    /* flex-direction: column; */
+    flex-direction: column;
     margin-top: 1.875em;
     margin-bottom: 0;
   }
