@@ -120,6 +120,11 @@ p {
   font-weight: var(--weight-semi-bold);
 }
 
+.navbar__logo img {
+  width: 50px;
+  height: 40px;
+}
+
 .navbar__menu__item {
   padding: 0.5em 0.75em;
   margin: 0 0.25em;
@@ -143,7 +148,6 @@ p {
 /* Home */
 #home {
   background-color: var(--color-background-grey);
-  /* background: url(imgs/home-background.png) center/cover no-repeat; */
   padding: 2.5em;
   padding-top: 10em;
   text-align: center;
@@ -327,7 +331,6 @@ p {
 }
 
 .category__btn {
-  border: 1px solid var(--color-dark-white);
   border-radius: var(--size-border-radius);
   font-size: 1.25rem;
   padding: 0.5em 3em;
@@ -337,8 +340,7 @@ p {
 
 .category__btn.selected,
 .category__btn:hover {
-  background-color: var(--color-green);
-  color: var(--color-white);
+  text-decoration: underline;
 }
 
 .category__btn.selected .category__count,
@@ -454,7 +456,7 @@ p {
 
 .contact__links i:hover {
   transform: scale(1.1);
-  color: var(--color-dark-green);
+  color: var(--color-green);
   transition: all var(--animation-duration) ease-in;
 }
 
@@ -491,7 +493,7 @@ p {
   }
   .navbar__toggle-btn {
     display: block;
-    top: 16px;
+    top: 22px;
     right: 16px;
     font-size: var(--font-medium);
   }
@@ -504,6 +506,11 @@ p {
 
   #navbar.navbar--dark {
     padding: 1em;
+  }
+
+  .navbar__logo img {
+    width: 45px;
+    height: 35px;
   }
 
   .navbar__menu {
